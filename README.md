@@ -1,8 +1,7 @@
 AS3 Parse Class
 =====================
 
-This is a static ActionScript 3.0 Class for interacting with the Parse REST API and works with AIR 3.0
-
+This is a static ActionScript 3.0 Class for interacting with the Parse REST API.
 
 Dependencies
 =====================
