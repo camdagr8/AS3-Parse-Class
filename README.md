@@ -6,7 +6,7 @@ This is a static ActionScript 3.0 Class for interacting with the Parse REST API 
 
 Dependencies
 =====================
-This class requires the top level JSON Class (see: http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/JSON.html). 
+This class requires the top level JSON Class http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/JSON.html 
 
 
 Language Version
