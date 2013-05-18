@@ -23,6 +23,13 @@ Usage
 
 Import com.illumifi.Parse to your project. 
 ```actionscript
+/**
+ * Parse.Post(className:String, parameters:Object, success:Function, error:Function);
+ */
 Parse.Post('Scores', {gamerId: 'camdagr8', score: 1337},	function (resp) {		trace(JSON.stringify(resp));	},	function (err) {		trace(err); 	});
+
+/**
+ * Parse.Get(className, parameters:Object, where:Object, success:Function, error:Function);
+ */
 Parse.Get('Scores', {count: 1}, {gamerId: 'camdagr8'},	function (resp) {		trace(JSON.stringify(resp));	},	function (err) {		trace(err);	}
 );```
