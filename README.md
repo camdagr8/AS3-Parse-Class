@@ -23,5 +23,6 @@ Usage
 
 Import com.illumifi.Parse to your project. 
 ```actionscript
-Parse.Get('Scores', {objectId: 'OEyhrxNx9z'},	function (resp) {		trace(JSON.stringify(resp));	},	function (e) {		trace(JSON.stringify(e));	}
+Parse.Post('Scores', {gamerId: 'camdagr8', score: 1337},	function (resp) {		trace(JSON.stringify(resp));	},	function (err) {		trace(err); 	});
+Parse.Get('Scores', {count: 1}, {gamerId: 'camdagr8'},	function (resp) {		trace(JSON.stringify(resp));	},	function (err) {		trace(err);	}
 );```
